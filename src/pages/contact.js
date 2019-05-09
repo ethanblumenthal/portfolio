@@ -1,15 +1,12 @@
 import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Layout from '../components/Layout'
 
 const Contact = () => {
   return (
-    <div>
-      <Header />
+    <Layout>
       <h1>Contact</h1>
       <p>Email: ethan.blumenthal@gmail.com</p>
-      <Footer />
-    </div>
+    </Layout>
   )
 }
 
