@@ -1,11 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
+import Header from '../components/Header'
 
 const About = () => {
   return (
     <Layout>
       <Head title="About" />
+      <Header />
       <section className="section-about">
         <div className="row">
           <div className="col-1-of-2">

@@ -1,11 +1,13 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
+import Header from '../components/Header'
 
 const Projects = () => {
   return (
     <Layout>
       <Head title="Projects" />
+      <Header />
       <section className="section-tours" id="section-tours">
         <div className="row">
           <div className="col-1-of-3">
@@ -103,7 +105,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-        <div className="u-center-text u-margin-top-huge">
+        <div className="u-center-text">
           <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal" className="btn btn--green">View all &rarr;</a>
         </div>
       </section>

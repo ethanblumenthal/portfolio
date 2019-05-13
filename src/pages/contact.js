@@ -1,12 +1,14 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
+import Header from '../components/Header'
 
 const Contact = () => {
   return (
     <Layout>
       <Head title="Contact" />
       <section className="section-book">
+      <Header />
         <div className="row">
           <div className="book">
             <div className="book__form">
