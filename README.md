@@ -6,5 +6,6 @@ Built With:
 - Gatsby
 - React
 - GraphQL
+- Sass
 - Contentful
 - Netlifly
