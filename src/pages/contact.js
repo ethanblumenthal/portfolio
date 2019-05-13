@@ -7,8 +7,8 @@ const Contact = () => {
   return (
     <Layout>
       <Head title="Contact" />
-      <section className="section-book">
       <Header />
+      <section className="section-book">
         <div className="row">
           <div className="book">
             <div className="book__form">

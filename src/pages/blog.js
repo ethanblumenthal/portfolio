@@ -1,87 +1,62 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
-import { Link, graphql, useStaticQuery } from 'gatsby'
-import blogStyles from './blog.module.scss'
+import Header from '../components/Header'
+// import { graphql, useStaticQuery } from 'gatsby'
 
 const Blog = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allContentfulBlogPost ( sort: { fields:date, order:DESC }) {
-        edges {
-          node {
-            title
-            slug
-            date(formatString: "MMMM Do, YYYY")
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     allContentfulBlogPost ( sort: { fields:date, order:DESC }) {
+  //       edges {
+  //         node {
+  //           title
+  //           slug
+  //           body {
+  //             id
+  //           }
+  //           date(formatString: "MMMM Do, YYYY")
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <Layout>
       <Head title="Blog" />
-      <h1>Blog</h1>
-      <ol className={blogStyles.posts}>
-        {data.allContentfulBlogPost.edges.map(edge => {
-          return (
-            <li className={blogStyles.post}>
-              <Link to={`/blog/${edge.node.slug}`}>
-                <h2>{edge.node.title}</h2>
-                <p>{edge.node.date}</p>
-              </Link>
-            </li>
-          )
-        })}
-      </ol>
-
-      {/* <section class="section-stories">
-        <div class="bg-video">
-          <video class="bg-video__content" autoPlay muted loop>
-            <source src="img/video.mp4" type="video/mp4" />
-            <source src="img/video.webm" type="video/webm" />
-          </video>
-        </div>
-
-        <div class="row">
-          <div class="story">
-            <figure class="story__shape">
-              <img src="img/nat-8.jpg" alt="Person on a tour" class="story__img" />
-              <figcaption class="story__caption">Mary Smith</figcaption>
+      <Header />
+      <section className="section-stories">
+        <div className="row">
+          <div className="story">
+            <figure className="story__shape">
+              <img src="img/nat-8.jpg" alt="Person on a tour" className="story__img" />
+              <figcaption className="story__caption">GraphQL</figcaption>
             </figure>
-            <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">I had the best week ever with my family</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero
-                repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
-              </p>
+            <div className="story__text">
+              <h3 className="heading-tertiary u-margin-bottom-small">Hello World — GraphQL Edition</h3>
+              <p>GraphQL is the new kid on the block when it comes to API design. If you’re looking to improve the flow of data in your applications, then the time is right to explore this exciting new technology. GraphQL allows users to declaratively fetch data by specifying exactly what they want. As applications have become increasingly complex, data has become heavily nested, creating headaches for developers...</p>
             </div>
           </div>
         </div>
 
-        <div class="row">
-          <div class="story">
-            <figure class="story__shape">
-              <img src="img/nat-9.jpg" alt="Person on a tour" class="story__img" />
-              <figcaption class="story__caption">Jack Wilson</figcaption>
+        <div className="row">
+          <div className="story">
+            <figure className="story__shape">
+              <img src="img/nat-8.jpg" alt="Person on a tour" className="story__img" />
+              <figcaption className="story__caption">Future</figcaption>
             </figure>
-            <div class="story__text">
-              <h3 class="heading-tertiary u-margin-bottom-small">WOW! My life is completely different now</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                ducimus quam nisi exercitationem omnis earum qui. Aperiam, ipsum sapiente aspernatur libero
-                repellat quis consequatur ducimus quam nisi exercitationem omnis earum qui.
-              </p>
+            <div className="story__text">
+              <h3 className="heading-tertiary u-margin-bottom-small">Technologies Shaping the Future</h3>
+              <p>We are currently in an age of lightning fast innovation. Since the dawn of the Internet, new technologies have progressed at a pace never before seen in human history. It is an amazing time to partake in building the future. Below are the top five technologies (in no particular order) that I believe are about to change the world....</p>
             </div>
           </div>
         </div>
 
-        <div class="u-center-text u-margin-top-huge">
-          <a href="#" class="btn-text">Read all stories &rarr;</a>
+        <div className="u-center-text u-margin-top-huge">
+          <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal" className="btn-text">Read all &rarr;</a>
         </div>
-      </section> */}
+      </section>
     </Layout>
   )
 }
