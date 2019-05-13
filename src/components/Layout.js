@@ -6,13 +6,13 @@ import '../styles/index.scss'
 
 const Layout = props => {
   return (
-    <body className={layoutStyles.container}>
+    <div className={layoutStyles.container}>
       <div className={layoutStyles.content}>
         <Header />
         {props.children}
       </div>
       <Footer />
-    </body>
+    </div>
   )
 }
 
