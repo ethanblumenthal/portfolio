@@ -33,7 +33,7 @@ const Projects = () => {
                   <div className="card__cta">
                       <div className="card__price-box">
                           <p className="card__price-value">Hype Swipe</p>
-                          <p className="card__price-only">Find new places to expore around you!</p>
+                          <p className="card__price-only">Find new places to explore near you.</p>
                       </div>
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/hype-swipe" className="btn btn--white">View Code</a>
                   </div>
@@ -64,7 +64,7 @@ const Projects = () => {
                   <div className="card__cta">
                     <div className="card__price-box">
                       <p className="card__price-value">Product Loop</p>
-                      <p className="card__price-only">Get insightful email feedback on your product!</p>
+                      <p className="card__price-only">Get email feedback on your product.</p>
                     </div>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/product-loop" className="btn btn--white">View Code</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://product-loop.herokuapp.com/" className="btn btn--white">Demo App</a>
@@ -96,7 +96,7 @@ const Projects = () => {
                   <div className="card__cta">
                     <div className="card__price-box">
                       <p className="card__price-value">Code Along</p>
-                      <p className="card__price-only">Live stream your coding sessions to followers!</p>
+                      <p className="card__price-only">Live stream your coding sessions.</p>
                     </div>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/code-along" className="btn btn--white">View Code</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://code-along-1.herokuapp.com/" className="btn btn--white">Demo App</a>

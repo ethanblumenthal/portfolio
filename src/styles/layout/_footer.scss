@@ -1,6 +1,6 @@
 .footer {
     background-color: $color-grey-dark-3;
-    padding: 1rem 0;
+    padding: 4rem;
     font-size: 1.4rem;
     color: $color-grey-light-1;
 
@@ -24,8 +24,6 @@
 
     &__navigation {
         border-top: 1px solid $color-grey-dark;
-        padding-top: 2rem;
-        padding-bottom: 4rem;
         display: inline-block;
 
         @include respond(tab-port) {
@@ -40,6 +38,7 @@
 
     &__item {
         display: inline-block;
+        padding: 2rem;
 
         &:not(:last-child) {
             margin-right: 1.5rem;
@@ -67,8 +66,7 @@
 
     &__copyright {
       border-top: 1px solid $color-grey-dark;
-      padding-top: 2rem;
-      padding-bottom: 4rem;
+      padding: 2rem;
       display: inline-block;
       float: right;
 

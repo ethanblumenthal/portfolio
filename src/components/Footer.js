@@ -14,8 +14,6 @@ const Footer = () => {
 
   return (
     <footer className="footer">
-      <div className="footer__logo-box">
-      </div>
       <div className="row">
         <div className="col-1-of-2">
           <div className="footer__navigation">
@@ -28,7 +26,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-1-of-2">
-        <p className="footer__copyright">Created by {data.site.siteMetadata.author}, © 2019</p>
+        <p className="footer__copyright">Created by {data.site.siteMetadata.author}, © 2019. Find the code for this website <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/portfolio" className="footer__link">here</a>.</p>
       </div>
     </div>
   </footer>

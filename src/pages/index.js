@@ -3,7 +3,6 @@ import Layout from '../components/Layout'
 import Head from '../components/Head'
 import Header from '../components/Header'
 
-
 const Index = () => {
   return (
     <Layout>
@@ -31,9 +30,9 @@ const Index = () => {
           <div className="col-1-of-4">
             <div className="feature-box">
               <h3 className="heading-tertiary u-margin-bottom-small">Front End</h3>
-              <p className="feature-box__text">CSS3 & Sass</p>
+              <p className="feature-box__text">HTML5 & CSS3</p>
               <p className="feature-box__text">React & Redux</p>
-              <p className="feature-box__text">React Router</p>
+              <p className="feature-box__text">Vue & Vuex</p>
               <p className="feature-box__text">React Native</p>
             </div>
           </div>
@@ -51,9 +50,9 @@ const Index = () => {
           <div className="col-1-of-4">
             <div className="feature-box">
               <h3 className="heading-tertiary u-margin-bottom-small">Dev Ops</h3>
-              <p className="feature-box__text">Git & GitHub</p>
               <p className="feature-box__text">TravisCI & Heroku</p>
-              <p className="feature-box__text">AWS & GCP</p>
+              <p className="feature-box__text">Google Cloud Platform</p>
+              <p className="feature-box__text">Amazon Web Services</p>
               <p className="feature-box__text">Docker & Kubernetes</p>
             </div>
           </div>

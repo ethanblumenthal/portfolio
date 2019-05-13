@@ -30,7 +30,7 @@ const Blog = () => {
         <div className="row">
           <div className="story">
             <figure className="story__shape">
-              <img src="img/nat-8.jpg" alt="Person on a tour" className="story__img" />
+              <img src="img/nat-9.jpg" alt="GraphQL" className="story__img" />
               <figcaption className="story__caption">GraphQL</figcaption>
             </figure>
             <div className="story__text">
@@ -43,7 +43,7 @@ const Blog = () => {
         <div className="row">
           <div className="story">
             <figure className="story__shape">
-              <img src="img/nat-8.jpg" alt="Person on a tour" className="story__img" />
+              <img src="img/nat-8.jpg" alt="Future" className="story__img" />
               <figcaption className="story__caption">Future</figcaption>
             </figure>
             <div className="story__text">
