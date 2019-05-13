@@ -19,7 +19,7 @@ const About = () => {
             <div className="composition">
               <img srcSet="img/ethan-1.jpg 300w"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Profile Picture"
+                alt="Profile"
                 className="composition__photo composition__photo--p1"
                 src="img/ethan-1.jpg" />
               <img srcSet="img/ethan-2.jpg 300w"
@@ -27,14 +27,11 @@ const About = () => {
                 alt="Golden Gate Bridge"
                 className="composition__photo composition__photo--p2"
                 src="img/ethan-2.jpg" />
-              <img srcSet="img/ethan-2.jpg 300w"
+              <img srcSet="img/ethan-3.jpg 300w"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Lennon Wall"
                 className="composition__photo composition__photo--p3"
-                src="img/ethan-2.jpg" />
-              <img src="img/ethan-1.jpg" alt="Profile Picture" className="composition__photo composition__photo--p1" />
-              <img src="img/ethan-2.jpg" alt="Golden Gate Bridge" className="composition__photo composition__photo--p2" />
-              <img src="img/ethan-3.jpg" alt="Lennon Wall" className="composition__photo composition__photo--p3" />
+                src="img/ethan-3.jpg" />
             </div>
           </div>
         </div>
