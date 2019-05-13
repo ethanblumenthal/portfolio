@@ -18,7 +18,7 @@ const Index = () => {
             <span className="heading-primary--main">Ethan Blumenthal</span>
             <span className="heading-primary--sub">Full Stack Software Developer</span>
           </h1>
-          <a href="#" className="btn btn--white btn--animated">View Resume</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.ethanblumenthal.net/" className="btn btn--green btn--animated">View Resume</a>
         </div>
       </section>
     </Layout>
