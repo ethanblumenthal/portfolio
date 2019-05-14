@@ -10,7 +10,7 @@ const Index = () => {
             <span className="heading-primary--main">Ethan Blumenthal</span>
             <span className="heading-primary--sub">Full Stack Software Developer</span>
           </h1>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.ethanblumenthal.net/" className="btn btn--white btn--animated">View Resume</a>
+          <a target="_blank" rel="noopener noreferrer" href="img/ethan_blumenthal_resume.pdf" className="btn btn--white btn--animated">View Resume</a>
         </div>  
         <div className="row">
           <div className="col-1-of-4">
@@ -28,7 +28,7 @@ const Index = () => {
               <h3 className="heading-tertiary u-margin-bottom-small">Front End</h3>
               <p className="feature-box__text">HTML5 & CSS3</p>
               <p className="feature-box__text">React & Redux</p>
-              <p className="feature-box__text">Vue & Vuex</p>
+              <p className="feature-box__text">React Router</p>
               <p className="feature-box__text">React Native</p>
             </div>
           </div>

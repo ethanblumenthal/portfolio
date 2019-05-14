@@ -20,8 +20,8 @@ const Projects = () => {
                     <li>React Native & Firebase</li>
                     <li>CSS Animations</li>
                     <li>Push Notifications</li>
-                    <li>Twilio One Time Passwords</li>
-                    <li>AWS Serverless Computing</li>
+                    <li>One Time Passwords</li>
+                    <li>Serverless Computing</li>
                   </ul>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const Projects = () => {
                   </h4>
                   <div className="card__details">
                     <ul>
-                      <li>Node / Express / MongoDB</li>
+                      <li>Node & Express</li>
                       <li>Payments with Stripe</li>
                       <li>Webhooks with Sendgrid</li>
                       <li>Data Caching with Redis</li>
@@ -80,8 +80,8 @@ const Projects = () => {
                   </h4>
                   <div className="card__details">
                     <ul>
-                      <li>React / GraphQL / PostgreSQL</li>
-                      <li>Realtime Messaging Protocol</li>
+                      <li>React & Redux</li>
+                      <li>Real-Time Messaging Protocol</li>
                       <li>Google & Facebook OAuth</li>
                       <li>Higher Order Components</li>
                       <li>Middlewares & Hooks</li>
