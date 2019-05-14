@@ -1,13 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
-import Header from '../components/Header'
 
 const Projects = () => {
   return (
-    <Layout>
+    <Layout color="#777" title="Projects">
       <Head title="Projects" />
-      <Header />
       <section className="section-tours" id="section-tours">
         <div className="row">
           <div className="col-1-of-3">
@@ -35,7 +33,7 @@ const Projects = () => {
                           <p className="card__price-value">Hype Swipe</p>
                           <p className="card__price-only">Find new places to explore near you.</p>
                       </div>
-                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/hype-swipe" className="btn btn--white">View Code</a>
+                      <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/hype-swipe" className="btn btn--white u-margin-bottom-medium">View Code</a>
                   </div>
                 </div>
               </div>
@@ -63,10 +61,10 @@ const Projects = () => {
                 <div className="card__side card__side--back card__side--back-2">
                   <div className="card__cta">
                     <div className="card__price-box">
-                      <p className="card__price-value">Product Loop</p>
+                      <p className="card__price-value">Pro Loop</p>
                       <p className="card__price-only">Get email feedback on your product.</p>
                     </div>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/product-loop" className="btn btn--white">View Code</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/product-loop" className="btn btn--white u-margin-bottom-medium">View Code</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://product-loop.herokuapp.com/" className="btn btn--white">Demo App</a>
                   </div>
                 </div>
@@ -98,7 +96,7 @@ const Projects = () => {
                       <p className="card__price-value">Code Along</p>
                       <p className="card__price-only">Live stream your coding sessions.</p>
                     </div>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/code-along" className="btn btn--white">View Code</a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/code-along" className="btn btn--white u-margin-bottom-medium">View Code</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://code-along-1.herokuapp.com/" className="btn btn--white">Demo App</a>
                   </div>
                 </div>
@@ -106,7 +104,7 @@ const Projects = () => {
             </div>
           </div>
         <div className="u-center-text">
-          <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal" className="btn btn--green">View all &rarr;</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal" className="btn-text">View all &rarr;</a>
         </div>
       </section>
     </Layout>

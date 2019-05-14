@@ -1,17 +1,6 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
 
 const Footer = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          author
-        }
-      }
-    }
-  `)
-
   return (
     <footer className="footer">
       <div className="row">
@@ -26,7 +15,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="col-1-of-2">
-        <p className="footer__copyright">Created by {data.site.siteMetadata.author}, © 2019. Find the code for this website <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/portfolio" className="footer__link">here</a>.</p>
+        <p className="footer__copyright">Created by Ethan Blumenthal, © 2019. Find the code for this website <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/portfolio" className="footer__link">here</a>.</p>
       </div>
     </div>
   </footer>

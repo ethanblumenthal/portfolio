@@ -1,13 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Head from '../components/Head'
-import Header from '../components/Header'
 
 const Contact = () => {
   return (
-    <Layout>
+    <Layout color="#777" title="Contact">
       <Head title="Contact" />
-      <Header />
       <section className="section-book">
         <div className="row">
           <div className="book">

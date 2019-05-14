@@ -48,6 +48,11 @@
         transition: all .5s;
     }
 
+    &__link {
+        text-decoration: none;
+        color: $color-grey-dark;
+    }
+
     &__text {
         transform: skewX(12deg);
 

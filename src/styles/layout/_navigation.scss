@@ -1,11 +1,9 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  z-index: 9999;
   padding-top: 2rem;
 
   &__title {
-    color: $color-secondary-light;
     font-size: 2rem;
     text-decoration: none;
     margin-left: 2rem;
@@ -18,7 +16,6 @@
   }
   
   &__nav-item {
-    color: $color-secondary-light;
     margin-right: 3rem;
     text-decoration: none;
     font-size: 2rem;
