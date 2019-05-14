@@ -1,11 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Head from '../components/Head'
 
 const Index = () => {
   return (
     <Layout color="#fff" title="Home">
-      <Head title="Home" />
       <section className="header">
         <div className="header__text-box">
           <h1 className="heading-primary">

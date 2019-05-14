@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Head from '../components/Head'
 // import { graphql, useStaticQuery } from 'gatsby'
 
 const Blog = () => {
@@ -23,7 +22,6 @@ const Blog = () => {
 
   return (
     <Layout color="#777" title="Blog">
-      <Head title="Blog" />
       <section className="section-stories">
         <div className="row">
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal/hello-world-graphql-edition-dc4bf1a59cc" className="story__link">

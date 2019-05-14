@@ -1,11 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Head from '../components/Head'
 
 const Contact = () => {
   return (
     <Layout color="#777" title="Contact">
-      <Head title="Contact" />
       <section className="section-book">
         <div className="row">
           <div className="book">

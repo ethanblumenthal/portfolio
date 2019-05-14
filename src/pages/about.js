@@ -1,11 +1,9 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import Head from '../components/Head'
 
 const About = () => {
   return (
     <Layout color="#777" title="About">
-      <Head title="About" />
       <section className="section-about">
         <div className="row">
           <div className="col-1-of-2">
