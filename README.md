@@ -1,6 +1,6 @@
 # Ethan Blumenthal's Portfolio
 
-### Check it out at [here](www.ethanblumenthal.net)!
+### Check it out [here](www.ethanblumenthal.net)!
 
 Built With:
 - Gatsby
