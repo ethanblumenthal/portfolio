@@ -1,25 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
-// import { graphql, useStaticQuery } from 'gatsby'
 
 const Blog = () => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     allContentfulBlogPost ( sort: { fields:date, order:DESC }) {
-  //       edges {
-  //         node {
-  //           title
-  //           slug
-  //           body {
-  //             id
-  //           }
-  //           date(formatString: "MMMM Do, YYYY")
-  //         }
-  //       }
-  //     }
-  //   }
-  // `)
-
   return (
     <Layout color="#777" title="Blog">
       <section className="section-stories">
@@ -27,7 +9,7 @@ const Blog = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal/hello-world-graphql-edition-dc4bf1a59cc" className="story__link">
             <div className="story">
               <figure className="story__shape">
-                <img src="img/nat-9.jpg" alt="GraphQL" className="story__img" />
+                <img src="img/nat-6.jpg" alt="GraphQL" className="story__img" />
                 <figcaption className="story__caption">GraphQL</figcaption>
               </figure>
               <div className="story__text">
@@ -42,7 +24,7 @@ const Blog = () => {
           <div className="story">
             <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal/technologies-shaping-the-future-3df36c61761e" className="story__link">
               <figure className="story__shape">
-                <img src="img/nat-8.jpg" alt="Future" className="story__img" />
+                <img src="img/nat-7.jpg" alt="Future" className="story__img" />
                 <figcaption className="story__caption">Future</figcaption>
               </figure>
               <div className="story__text">

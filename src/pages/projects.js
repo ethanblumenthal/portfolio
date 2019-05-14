@@ -82,7 +82,7 @@ const Projects = () => {
                     <ul>
                       <li>React / GraphQL / PostgreSQL</li>
                       <li>Realtime Messaging Protocol</li>
-                      <li>Google & Facebook Oauth</li>
+                      <li>Google & Facebook OAuth</li>
                       <li>Higher Order Components</li>
                       <li>Middlewares & Hooks</li>
                     </ul>

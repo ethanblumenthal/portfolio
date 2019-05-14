@@ -1,7 +1,6 @@
 .footer {
     background-color: $color-grey-dark-3;
     padding: 4rem;
-    font-size: 1.4rem;
     color: $color-grey-light-1;
 
     @include respond(tab-port) {
@@ -38,7 +37,8 @@
 
     &__item {
         display: inline-block;
-        padding: 2rem;
+        padding: 1rem;
+        font-size: 4rem;
 
         &:not(:last-child) {
             margin-right: 1.5rem;
@@ -67,8 +67,9 @@
     &__copyright {
       border-top: 1px solid $color-grey-dark;
       padding: 2rem;
-      display: inline-block;
       float: right;
+      font-size: 1.4rem;
+      text-align: center;
 
       @include respond(tab-port) {
           width: 100%;
