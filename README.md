@@ -1,6 +1,5 @@
 # Ethan Blumenthal's Portfolio
-
-### Check it out at [here](www.ethanblumenthal.net)!
+My personal website.
 
 Built With:
 - Gatsby
