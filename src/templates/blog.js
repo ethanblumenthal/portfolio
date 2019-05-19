@@ -6,13 +6,13 @@ import Head from '../components/Head'
 
 export const query = graphql`
   query ($slug: String!) {
-    contentfulBlogPost (slug: { eq: $slug }) {
-      title
-      date(formatString: "MMMM Do, YYYY")
-      body {
-        json
-      }
-    }
+    # contentfulBlogPost (slug: { eq: $slug }) {
+    #   title
+    #   date(formatString: "MMMM Do, YYYY")
+    #   body {
+    #     json
+    #   }
+    # }
   }
 `
 
