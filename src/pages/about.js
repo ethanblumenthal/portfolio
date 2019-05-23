@@ -1,8 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import ethan1 from '../images/ethan-1.jpg'
-import ethan2 from '../images/ethan-2.jpg'
-import ethan3 from '../images/ethan-3.jpg'
 
 const About = () => {
   return (
@@ -18,21 +15,21 @@ const About = () => {
           </div>
           <div className="col-1-of-2">
             <div className="composition">
-              <img srcSet={ethan1}
+              <img srcSet="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-1.jpg"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Profile"
                 className="composition__photo composition__photo--p1"
-                src={ethan1} />
-              <img srcSet={ethan2}
+                src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-1.jpg" />
+              <img srcSet="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-2.jpg"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Golden Gate Bridge"
                 className="composition__photo composition__photo--p2"
-                src={ethan2} />
-              <img srcSet={ethan3}
+                src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-2.jpg" />
+              <img srcSet="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-3.jpg"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Lennon Wall"
                 className="composition__photo composition__photo--p3"
-                src={ethan3} />
+                src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-3.jpg" />
             </div>
           </div>
         </div>

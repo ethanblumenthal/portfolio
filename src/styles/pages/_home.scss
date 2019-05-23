@@ -42,7 +42,7 @@
                                     rgba($color-white, .9) 0%,
                                     rgba($color-white, .9) 50%,
                                     transparent 50%) ,
-                            url(../../src/images/nat-5.jpg);
+                            url(https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-5.jpg);
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($color-black, .2);
@@ -52,7 +52,7 @@
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 65%,
         transparent 65%) ,
-url(../../src/images/nat-5.jpg);
+url(https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-5.jpg);
         background-size: cover;
     }
 
@@ -60,7 +60,7 @@ url(../../src/images/nat-5.jpg);
         background-image: linear-gradient(to right, 
         rgba($color-white, .9) 0%,
         rgba($color-white, .9) 100%),
-url(../../src/images/nat-5.jpg);
+url(https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-5.jpg);
     }
 
     &__form {

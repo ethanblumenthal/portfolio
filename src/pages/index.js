@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import resume from '../images/ethan_blumenthal_resume.pdf'
 
 const Index = () => {
   return (
@@ -11,7 +10,7 @@ const Index = () => {
             <span className="heading-primary--main">Ethan Blumenthal</span>
             <span className="heading-primary--sub">Full Stack Software Developer</span>
           </h1>
-          <a target="_blank" rel="noopener noreferrer" href={resume} className="btn btn--white btn--animated">View Resume</a>
+          <a target="_blank" rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan_blumenthal_resume.pdf" className="btn btn--white btn--animated">View Resume</a>
         </div>  
         <div className="row">
           <div className="col-1-of-4">

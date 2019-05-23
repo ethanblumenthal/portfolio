@@ -62,17 +62,17 @@
         
         &--1 {
             background-image: linear-gradient(to right bottom, $color-secondary-light, $color-secondary-dark), 
-            url(../../src/images/nat-2.jpg);
+            url(https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-2.jpg);
         }
 
         &--2 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), 
-            url(../../src/images/nat-3.jpg);
+            url(https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-3.jpg);
         }
 
         &--3 {
             background-image: linear-gradient(to right bottom, $color-tertiary-light, $color-tertiary-dark), 
-            url(../../src/images/nat-4.jpg);
+            url(https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-4.jpg);
         }
     }
 

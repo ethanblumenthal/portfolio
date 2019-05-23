@@ -1,7 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import nat6 from '../images/nat-6.jpg'
-import nat7 from '../images/nat-7.jpg'
 
 const Blog = () => {
   return (
@@ -11,7 +9,7 @@ const Blog = () => {
           <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal/level-up-your-web-development-skills-with-typescript-b8f70da8712" className="story__link">
             <div className="story">
               <figure className="story__shape">
-                <img src={nat6} alt="TypeScript" className="story__img" />
+                <img src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-6.jpg" alt="TypeScript" className="story__img" />
                 <figcaption className="story__caption">TypeScript</figcaption>
               </figure>
               <div className="story__text">
@@ -26,7 +24,7 @@ const Blog = () => {
           <div className="story">
             <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal/hello-world-graphql-edition-dc4bf1a59cc" className="story__link">
               <figure className="story__shape">
-                <img src={nat7} alt="GraphQL" className="story__img" />
+                <img src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/nat-7.jpg" alt="GraphQL" className="story__img" />
                 <figcaption className="story__caption">GraphQL</figcaption>
               </figure>
               <div className="story__text">
