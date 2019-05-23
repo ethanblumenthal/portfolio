@@ -59,7 +59,7 @@ const Projects = () => {
                 <div className="card__side card__side--back card__side--back-2">
                   <div className="card__cta">
                     <div className="card__price-box">
-                      <p className="card__price-value">Pro Loop</p>
+                      <p className="card__price-value" style={{ fontSize: '5rem' }}>Product Loop</p>
                       <p className="card__price-only">Get email feedback on your product.</p>
                     </div>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/product-loop" className="btn btn--white u-margin-bottom-medium">View Code</a>
@@ -81,10 +81,10 @@ const Projects = () => {
                   <div className="card__details">
                     <ul>
                       <li>React & Redux</li>
-                      <li>Real-Time Messaging Protocol</li>
-                      <li>Google & Facebook OAuth</li>
+                      <li>Streaming with RTMP</li>
+                      <li>Google OAuth</li>
                       <li>Higher Order Components</li>
-                      <li>Middlewares & Hooks</li>
+                      <li>Middlewares</li>
                     </ul>
                   </div>
                 </div>

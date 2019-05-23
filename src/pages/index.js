@@ -17,10 +17,10 @@ const Index = () => {
           <div className="col-1-of-4">
             <div className="feature-box">
               <h3 className="heading-tertiary u-margin-bottom-small">Languages</h3>
-              <p className="feature-box__text">JavaScript</p>
+              <p className="feature-box__text">JavaScript (ES6+)</p>
               <p className="feature-box__text">TypeScript</p>
-              <p className="feature-box__text">Python</p>
-              <p className="feature-box__text">C</p>
+              <p className="feature-box__text">Python3</p>
+              <p className="feature-box__text">Elixir & Phoenix</p>
             </div>
           </div>
 
