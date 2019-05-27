@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="row">
         <div className="col-1-of-2">
-          <div className="footer__navigation">
+          <div className="footer__socials">
             <ul className="footer__list">
               <li className="footer__item"><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ethanblumenthal/" className="footer__link"><i className="fab fa-linkedin"></i></a></li>
               <li className="footer__item"><a target="_blank" rel="noopener noreferrer" href="https://medium.com/@ethanblumenthal" className="footer__link"><i className="fab fa-medium"></i></a></li>

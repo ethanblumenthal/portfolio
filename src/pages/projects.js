@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 const Projects = () => {
   return (
     <Layout color="#777" title="Projects">
-      <section className="section-tours" id="section-tours">
+      <section className="page-projects" id="section-projects">
         <div className="row">
           <div className="col-1-of-3">
             <div className="card">

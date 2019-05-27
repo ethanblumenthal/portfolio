@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 const About = () => {
   return (
     <Layout color="#777" title="About">
-      <section className="section-about">
+      <section className="page-about">
         <div className="row">
           <div className="col-1-of-2">
             <h3 className="heading-tertiary u-margin-bottom-small">Hello!</h3>
@@ -14,21 +14,21 @@ const About = () => {
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ethanblumenthal/" className="btn-text">Learn more &rarr;</a>
           </div>
           <div className="col-1-of-2">
-            <div className="composition">
+            <div className="profile">
               <img srcSet="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-1.jpg"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Profile"
-                className="composition__photo composition__photo--p1"
+                className="profile__photo profile__photo--p1"
                 src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-1.jpg" />
               <img srcSet="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-2.jpg"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Golden Gate Bridge"
-                className="composition__photo composition__photo--p2"
+                className="profile__photo profile__photo--p2"
                 src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-2.jpg" />
               <img srcSet="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-3.jpg"
                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                 alt="Lennon Wall"
-                className="composition__photo composition__photo--p3"
+                className="profile__photo profile__photo--p3"
                 src="https://s3.us-east-2.amazonaws.com/ethan-blumenthal-portfolio/ethan-3.jpg" />
             </div>
           </div>
