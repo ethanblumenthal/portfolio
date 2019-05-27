@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 class Header extends Component {
+  state = { renderDesktop: true }
+
+  componentDidMount() {
+    this.setState({ renderDesktop: window.innerWidth > 900 })
+  }
+
   borderBottom(title) {
     return this.props.title === title ? '3px solid currentColor' : ''
   }
@@ -55,7 +61,7 @@ class Header extends Component {
   render() {
     return (
       <div>
-        {window.innerWidth > 900 ? this.renderDesktop() : this.renderMobile()}
+        {this.state.renderDesktop ? this.renderDesktop() : this.renderMobile()}
       </div>
     )
   }

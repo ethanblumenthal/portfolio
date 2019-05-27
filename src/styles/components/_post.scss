@@ -17,6 +17,7 @@
 
   @include respond(phone) {
     transform: skewX(0);
+    width: 65%;
   }
 
   &__shape {
@@ -46,6 +47,10 @@
     transform: translateX(-4rem) scale(1.4);
     backface-visibility: hidden;
     transition: all .5s;
+
+    @include respond(phone) {
+      margin: auto;
+    }
   }
 
   &__link {

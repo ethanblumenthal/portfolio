@@ -14,7 +14,7 @@ const Index = () => {
         </div>  
         <div className="row">
           <div className="col-1-of-4">
-            <div className="skill">
+            <div className="skill first">
               <h3 className="heading-tertiary u-margin-bottom-small">Languages</h3>
               <p className="skill__text">JavaScript (ES6+)</p>
               <p className="skill__text">TypeScript</p>
