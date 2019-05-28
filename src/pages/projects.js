@@ -27,9 +27,9 @@ const Projects = () => {
               </div>
               <div className="card__side card__side--back card__side--back-1">
                   <div className="card__cta">
-                      <div className="card__price-box">
-                          <p className="card__price-value">Hype Swipe</p>
-                          <p className="card__price-only">Find new places to explore near you.</p>
+                      <div className="card__info-box">
+                          <p className="card__info-title">Hype Swipe</p>
+                          <p className="card__info-description">Find new places to explore near you.</p>
                       </div>
                       <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/hype-swipe" className="btn btn--white u-margin-bottom-medium">View Code</a>
                   </div>
@@ -58,9 +58,9 @@ const Projects = () => {
                 </div>
                 <div className="card__side card__side--back card__side--back-2">
                   <div className="card__cta">
-                    <div className="card__price-box">
-                      <p className="card__price-value" style={{ fontSize: '5rem' }}>Product Loop</p>
-                      <p className="card__price-only">Get email feedback on your product.</p>
+                    <div className="card__info-box">
+                      <p className="card__info-title" style={{ fontSize: '5rem' }}>Product Loop</p>
+                      <p className="card__info-description">Get email feedback on your product.</p>
                     </div>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/product-loop" className="btn btn--white u-margin-bottom-medium">View Code</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://product-loop.herokuapp.com/" className="btn btn--white">Demo App</a>
@@ -90,9 +90,9 @@ const Projects = () => {
                 </div>
                 <div className="card__side card__side--back card__side--back-3">
                   <div className="card__cta">
-                    <div className="card__price-box">
-                      <p className="card__price-value">Code Along</p>
-                      <p className="card__price-only">Live stream your coding sessions.</p>
+                    <div className="card__info-box">
+                      <p className="card__info-title">Code Along</p>
+                      <p className="card__info-description">Live stream your coding sessions.</p>
                     </div>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ethanblumenthal/code-along" className="btn btn--white u-margin-bottom-medium">View Code</a>
                     <a target="_blank" rel="noopener noreferrer" href="https://code-along-1.herokuapp.com/" className="btn btn--white">Demo App</a>

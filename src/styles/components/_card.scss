@@ -131,7 +131,7 @@
     }
   }
 
-  // FRONT SIDE STYLING
+  // BACK SIDE STYLING
   &__cta {
     position: absolute;
     top: 50%;
@@ -141,23 +141,23 @@
     text-align: center;
   }
 
-  &__price-box {
+  &__info-box {
     text-align: center;
     color: $color-white;
     margin-bottom: 8rem;
   }
 
-  &__price-only {
+  &__info-description {
     font-size: 1.4rem;
     text-transform: uppercase;
   }
 
-  &__price-value {
+  &__info-title {
     font-size: 6rem;
     font-weight: 100;
   }
 
-  //@include respond(tab-port) {
+  // @include respond(tab-port) {
   @media only screen and (max-width: 56.25em), only screen and (hover: none) {
     height: auto;
     border-radius: 3px;
@@ -183,7 +183,7 @@
       padding: 1rem 3rem;
     }
 
-    // FRONT SIDE STYLING
+    // BACK SIDE STYLING
     &__cta {
       position: relative;
       top: 0%;
@@ -193,12 +193,23 @@
       padding: 7rem 4rem 4rem 4rem;
     }
 
-    &__price-box {
+    &__info-box {
       margin-bottom: 3rem;
     }
 
-    &__price-value {
+    &__info-title {
       font-size: 4rem;
+    }
+  }
+
+  @include respond(phone) {
+    &__cta {
+      top: 0%;
+      left: -4rem;
+    }
+
+    &__info-title {
+      display: none;
     }
   }
 }

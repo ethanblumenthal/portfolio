@@ -28,7 +28,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-    </section>
+      </section>
     </Layout>
   )
 }
